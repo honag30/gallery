@@ -37,7 +37,7 @@
           </router-link>
           <button
             type="button"
-            class="btn btn-sm btn-warning me-2"
+            class="btn btn-sm btn-warning me-2 rounded-1"
             @click.prevent="addToCart(item.id)"
           >
             <i class="fa-solid fa-cart-plus"></i>
@@ -125,5 +125,10 @@ export default {
   height: 300px;
   background-size: cover;
   background-position: center;
+}
+.title {
+  /* color: black; */
+  font-weight: 600;
+  font-size: 16px;
 }
 </style>
